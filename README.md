@@ -114,16 +114,16 @@ Maps use the `.ber` format with these components:
 ### macOS Setup
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/ssbaytri/So_long
 cd so_long
 
 # Compile and run mandatory version
-make -C Mandatory
-./Mandatory/so_long maps/map1.ber
+make
+./so_long maps/map1.ber
 
 # Compile and run bonus version
-make -C Bonus
-./Bonus/so_long_bonus maps/map1.ber
+make bonus
+./so_long_bonus maps/map7.ber
 ```
 
 ### Linux Setup
